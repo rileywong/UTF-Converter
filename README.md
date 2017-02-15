@@ -1,4 +1,3 @@
-# Homework 2
 Riley Wong
-109920102
+UTF Converter - Class Project
 
