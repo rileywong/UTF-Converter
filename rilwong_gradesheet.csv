@@ -1,0 +1,139 @@
+Testcase,Points,Notes,Description
+"Surrogates.txt: Program successfully converted UTF-16LE to UTF-16LE and had an invalid return code. - 0.75
+","0.75
+",,Surrogates.txt: Program successfully converted UTF-16LE to UTF-16LE and had an invalid return code.
+"Surrogates.txt: Program successfully converted UTF-16BE to UTF-16BE and had an invalid return code. - 0.75
+","0.75
+",,Surrogates.txt: Program successfully converted UTF-16BE to UTF-16BE and had an invalid return code.
+"ASCII.txt:Program sucessfully converted UTF-16LE to UTF-16BE and had an invalid return code. - 0.75
+","0.75
+",,ASCII.txt:Program sucessfully converted UTF-16LE to UTF-16BE and had an invalid return code.
+"Nonsurrogates.txt:Program sucessfully converted UTF-16LE to UTF-16BE and had an invalid return code. - 0.75
+","0.75
+",,Nonsurrogates.txt:Program sucessfully converted UTF-16LE to UTF-16BE and had an invalid return code.
+"Mixed.txt:Program sucessfully converted UTF-16LE to UTF-16BE and had an invalid return code. - 0.75
+","0.75
+",,Mixed.txt:Program sucessfully converted UTF-16LE to UTF-16BE and had an invalid return code.
+"Surrogates.txt:Program sucessfully converted UTF-16LE to UTF-16BE and had an invalid return code. - 0.75
+","0.75
+",,Surrogates.txt:Program sucessfully converted UTF-16LE to UTF-16BE and had an invalid return code.
+"ASCII.txt:Program sucessfully converted UTF-16BE to UTF-16LE and had an invalid return code. - 0.75
+","0.75
+",,ASCII.txt:Program sucessfully converted UTF-16BE to UTF-16LE and had an invalid return code.
+"Nonsurrogates.txt:Program sucessfully converted UTF-16BE to UTF-16LE and had an invalid return code. - 0.75
+","0.75
+",,Nonsurrogates.txt:Program sucessfully converted UTF-16BE to UTF-16LE and had an invalid return code.
+"Mixed.txt:Program sucessfully converted UTF-16BE to UTF-16LE and had an invalid return code. - 0.75
+","0.75
+",,Mixed.txt:Program sucessfully converted UTF-16BE to UTF-16LE and had an invalid return code.
+"Surrogates.txt:Program sucessfully converted UTF-16BE to UTF-16LE and had an invalid return code. - 0.75
+","0.75
+",,Surrogates.txt:Program sucessfully converted UTF-16BE to UTF-16LE and had an invalid return code.
+"ASCII.txt: Program failed to convert UTF-8 to UTF-16LE and had a valid return code. - 0.625
+","0.625
+",,ASCII.txt: Program failed to convert UTF-8 to UTF-16LE and had a valid return code.
+"Nonsurrogates.txt: Program failed to convert UTF-8 to UTF-16LE and had a valid return code. - 0.625
+","0.625
+",,Nonsurrogates.txt: Program failed to convert UTF-8 to UTF-16LE and had a valid return code.
+"Mixed.txt: Program failed to convert UTF-8 to UTF-16LE and had a valid return code. - 0.625
+","0.625
+",,Mixed.txt: Program failed to convert UTF-8 to UTF-16LE and had a valid return code.
+"ASCII.txt: Program failed to convert UTF-8 to UTF-16BE and had a valid return code. - 0.625
+","0.625
+",,ASCII.txt: Program failed to convert UTF-8 to UTF-16BE and had a valid return code.
+"Nonsurrogates.txt: Program failed to convert UTF-8 to UTF-16BE and had a valid return code. - 0.625
+","0.625
+",,Nonsurrogates.txt: Program failed to convert UTF-8 to UTF-16BE and had a valid return code.
+"Mixed.txt: Program failed to convert UTF-8 to UTF-16BE and had a valid return code. - 0.625
+","0.625
+",,Mixed.txt: Program failed to convert UTF-8 to UTF-16BE and had a valid return code.
+,,Your files had EOF issues (-5 pts deducted from total score).,EOF
+"Correct -h output - 2
+","2
+",,Correct -h output
+"Correct --help output - 2
+","2
+",,Correct --help output
+"Incorrect valid --UTF handling - 0
+","0
+",,Incorrect valid --UTF handling
+"Incorrect invalid --UTF handling - 0
+","0
+",,Incorrect invalid --UTF handling
+"Correct handling of correct mixed arguments (-u 16LE --help ...) - 2
+","2
+",,Correct handling of correct mixed arguments (-u 16LE --help ...)
+"Incorrect handling of incorrect mixed arguments (-u --help 16LE  ...) - 0
+","0
+",,Incorrect handling of incorrect mixed arguments (-u --help 16LE  ...)
+"Incorrect difference between -v and -vv - 0
+","0
+",,Incorrect difference between -v and -vv
+"Incorrect filesize - 0
+","0
+",,Incorrect filesize
+"Incorrect filepath - 0
+","0
+",,Incorrect filepath
+"Incorrect input encoding - 0
+","0
+",,Incorrect input encoding
+"Incorrect output encoding - 0
+","0
+",,Incorrect output encoding
+"Incorrect hostmachine - 0
+","0
+",,Incorrect hostmachine
+"Incorrect operating system - 0
+","0
+",,Incorrect operating system
+"Incorrect ASCII percentage - 0
+","0
+",,Incorrect ASCII percentage
+"Incorrect surrogate percentage - 0
+","0
+",,Incorrect surrogate percentage
+"Incorrect glyph count - 0
+","0
+",,Incorrect glyph count
+"Correct timing - 3
+","3
+",,Correct timing
+"Correct rtn. code of nonexistent file - 2
+","2
+",,Correct rtn. code of nonexistent file
+"Correct rtn. code of identical input and output file - 2
+","2
+",,Correct rtn. code of identical input and output file
+"Incorrect rtn. code of empty file - 0
+","0
+",,Incorrect rtn. code of empty file
+"Incorrect rtn. code/output of preexisting file - 0
+","0
+",,Incorrect rtn. code/output of preexisting file
+"Correct rtn. code of symbolic file - 2
+","2
+",,Correct rtn. code of symbolic file
+"Correctcd rtn. code of mismatched output encodings for preexisting file - 2
+","2
+",,Correctcd rtn. code of mismatched output encodings for preexisting file
+"Program does not support OUT_FILE - 0
+","0
+",,Program does not support OUT_FILE
+"make debug 
+","
+",,make
+"Makefile does not support make debug - 0
+","0
+",,Makefile does not support make debug
+"Valgrind reported open file descriptors at exit - 0
+","0
+",,Valgrind reported open file descriptors at exit
+"No memory errors or warnings (free, still reachable, etc) - 2
+","2
+",,"No memory errors or warnings (free, still reachable, etc)"
+"Valgrind errors present - 0
+","0
+",,Valgrind errors present
+,,Compilation error.,Your program failed to compile on Sparky.
+Total,25.25,,
